@@ -38,7 +38,7 @@ import {
   Edit2,
   Check,
   X,
-  Download,
+  Upload,
   Search,
   ExternalLink,
 } from "lucide-react";
@@ -142,8 +142,8 @@ export function EditableProductTable({
       status === "aligned"
         ? "bg-success/10 text-success border-success/30"
         : status === "lower"
-        ? "bg-destructive/10 text-destructive border-destructive/30"
-        : "bg-warning/10 text-warning border-warning/30";
+          ? "bg-destructive/10 text-destructive border-destructive/30"
+          : "bg-warning/10 text-warning border-warning/30";
 
     return (
       <Badge className={`text-xs ${colorClass}`}>
@@ -271,8 +271,8 @@ export function EditableProductTable({
               onClick={onExport}
               className="gradient-primary text-primary-foreground"
             >
-              <Download className="h-4 w-4 mr-2" />
-              Download Corrected Excel
+              <Upload className="h-4 w-4 mr-2" />
+              Upload to Server
             </Button>
           </div>
         </div>
@@ -343,9 +343,8 @@ export function EditableProductTable({
                 return (
                   <TableRow
                     key={product.id}
-                    className={`transition-colors ${
-                      hasIssue ? "bg-warning/5" : ""
-                    }`}
+                    className={`transition-colors ${hasIssue ? "bg-warning/5" : ""
+                      }`}
                   >
                     <TableCell className="font-mono text-sm">
                       {product.id}
@@ -466,8 +465,8 @@ export function EditableProductTable({
                           product.profitMargin < 15
                             ? "text-destructive"
                             : product.profitMargin > 50
-                            ? "text-success"
-                            : ""
+                              ? "text-success"
+                              : ""
                         }
                       >
                         {product.profitMargin.toFixed(1)}%

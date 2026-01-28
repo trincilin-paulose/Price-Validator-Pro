@@ -171,9 +171,8 @@ export async function fetchCompetitorPriceViaChatGPT(
     - If mutiple results, prefer to take the first listed or highest rated
     - If a match is found, return that result immediately
 
-  2. IF NOT FOUND by full title: Search using BRAND ONLY: "${
-    product.brand || "N/A"
-  }"
+  2. IF NOT FOUND by full title: Search using BRAND ONLY: "${product.brand || "N/A"
+      }"
     - Browse the brand's listings on each website and look for identical or very similar models
     - Prefer matches that include the exact model number or SKU in the title or product details
     product.brand || "N/A"
@@ -185,9 +184,8 @@ export async function fetchCompetitorPriceViaChatGPT(
     - Browse the brand's listings on each website and look for identical or very similar models
     - Prefer matches that include the exact model number or SKU in the title or product details
 
-  3. IF STILL NOT FOUND by brand: Search using the SKU/ID: "${
-    product.sku || "N/A"
-  }"
+  3. IF STILL NOT FOUND by brand: Search using the SKU/ID: "${product.sku || "N/A"
+      }"
     - Search using the SKU across the selected websites and product pages
     - Match SKU exactly when possible
 
@@ -217,9 +215,8 @@ Once you find the product:
 - Return the price as a number only (e.g., 9850 for ₹9,850)
 - Record the EXACT URL of the product page
 - Note which website the best match came from
-- Note which matching method was used (${
-      isFullProductUrl ? "direct URL" : "title/sku/brand"
-    })
+- Note which matching method was used (${isFullProductUrl ? "direct URL" : "title/sku/brand"
+      })
 
 RESPONSE FORMAT:
 You MUST respond with ONLY valid JSON, no markdown, no explanations, no additional text:
@@ -232,25 +229,22 @@ You MUST respond with ONLY valid JSON, no markdown, no explanations, no addition
   "source": "${isFullProductUrl ? "direct_url" : "website_name_where_found"}",
   "url": "exact_product_url",
   "confidence": ${isFullProductUrl ? "1.0" : "0.0_to_1.0"},
-  "notes": "${
-    isFullProductUrl ? "direct_url_fetch" : "best_match_across_websites"
-  }"
+  "notes": "${isFullProductUrl ? "direct_url_fetch" : "best_match_across_websites"
+      }"
 }
 
 IMPORTANT RULES:
-${
-  isFullProductUrl
-    ? `✓ Fetch ONLY the provided product URL(s): ${websitesList}
+${isFullProductUrl
+        ? `✓ Fetch ONLY the provided product URL(s): ${websitesList}
 ✓ Extract the EXACT LIST PRICE shown on that page`
-    : `✓ Search ACROSS ALL SPECIFIED WEBSITES for the best match
+        : `✓ Search ACROSS ALL SPECIFIED WEBSITES for the best match
 ✓ Extract ONLY the main list price shown on the website`
-}
+      }
 ✓ Use decimal format for price (e.g., 9850.00 for ₹9,850)
-${
-  isFullProductUrl
-    ? "✓ Return confidence 1.0 for direct URL fetch"
-    : "✓ Confidence: 1.0 for exact title match, 0.85 for SKU match, 0.65 for brand match"
-}
+${isFullProductUrl
+        ? "✓ Return confidence 1.0 for direct URL fetch"
+        : "✓ Confidence: 1.0 for exact title match, 0.85 for SKU match, 0.65 for brand match"
+      }
 ✓ Return ONLY JSON, absolutely no other text
 `;
 
@@ -408,14 +402,14 @@ ${
 
         const resultUrl = priceData.url
           ? (() => {
-              try {
-                return new URL(priceData.url).hostname
-                  .replace(/^www\./, "")
-                  .toLowerCase();
-              } catch {
-                return String(priceData.url).toLowerCase();
-              }
-            })()
+            try {
+              return new URL(priceData.url).hostname
+                .replace(/^www\./, "")
+                .toLowerCase();
+            } catch {
+              return String(priceData.url).toLowerCase();
+            }
+          })()
           : "";
 
         const resultSource = String(priceData.source || "").toLowerCase();
@@ -431,8 +425,7 @@ ${
 
         if (!matchesHost && !matchesSource) {
           throw new Error(
-            `Result came from outside provided URLs: ${
-              priceData.source || priceData.url
+            `Result came from outside provided URLs: ${priceData.source || priceData.url
             }`,
           );
         }

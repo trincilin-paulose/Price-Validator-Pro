@@ -8,6 +8,7 @@ import {
   generateMockCompetitorPrices,
 } from "@/utils/priceValidation";
 import { parseExcelFile, exportToExcel } from "@/utils/excelParser";
+import { uploadPricingToAPI } from "@/utils/csvUpload";
 import {
   crawlCompetitorPrices,
   mergeCompetitorPrices,
@@ -158,15 +159,16 @@ const Index = () => {
     [products]
   );
 
-  const handleExport = () => {
+  const handleExport = async () => {
     if (products.length === 0) {
       toast.error("No products to export");
       return;
     }
-    exportToExcel(products);
-    toast.success("Export complete!", {
-      description: "Check your downloads folder",
-    });
+    try {
+      await uploadPricingToAPI(products);
+    } catch (error) {
+      console.error("Export failed:", error);
+    }
   };
 
   const handleProductsUpdate = (updatedProducts: Product[]) => {
