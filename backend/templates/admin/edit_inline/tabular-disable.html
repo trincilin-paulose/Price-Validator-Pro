@@ -1,0 +1,55 @@
+{% load i18n admin_urls static admin_modify %}
+
+<!-- 🔥🔥🔥 LOADED admin/edit_inline/tabular.html 🔥🔥🔥 -->
+
+{% if inline_admin_formset.formset.can_delete %}
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const selectAll = document.getElementById("select-all-inline");
+    if (!selectAll) return;
+
+    selectAll.addEventListener("change", function () {
+        document.querySelectorAll(
+            'input[type="checkbox"][name$="-DELETE"]'
+        ).forEach(cb => cb.checked = selectAll.checked);
+    });
+});
+</script>
+{% endif %}
+
+<table class="inline-related">
+    <thead>
+        <tr>
+            {% for field in inline_admin_formset.fields %}
+                <th>{{ field.label|capfirst }}</th>
+            {% endfor %}
+            {% if inline_admin_formset.formset.can_delete %}
+                <th class="delete">
+                    <input type="checkbox" id="select-all-inline" title="Select all">
+                </th>
+            {% endif %}
+        </tr>
+    </thead>
+
+    <tbody>
+        {% for inline_admin_form in inline_admin_formset %}
+        <tr class="form-row">
+            {% for fieldset in inline_admin_form %}
+                {% for line in fieldset %}
+                    {% for field in line %}
+                        <td>
+                            {{ field.field }}
+                        </td>
+                    {% endfor %}
+                {% endfor %}
+            {% endfor %}
+
+            {% if inline_admin_formset.formset.can_delete %}
+                <td class="delete">
+                    {{ inline_admin_form.deletion_field.field }}
+                </td>
+            {% endif %}
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

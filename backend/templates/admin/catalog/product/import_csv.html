@@ -1,0 +1,12 @@
+{% extends "admin/base_site.html" %}
+
+{% block content %}
+<h2>Import Products CSV</h2>
+
+<form method="post" enctype="multipart/form-data">
+  {% csrf_token %}
+  <input type="file" name="csv_file" accept=".csv" required>
+  <br><br>
+  <button class="button default">Import</button>
+</form>
+{% endblock %}

@@ -1,0 +1,178 @@
+{% extends "core/base.html" %}
+
+{% block content %}
+
+<style>
+.cart-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px;
+}
+
+.cart-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Fixed column widths */
+.cart-img { width: 90px; }
+.cart-name { flex: 3; }
+.cart-qty { width: 80px; text-align: center; }
+.cart-mrp { width: 120px; text-align: right; }
+.cart-discount { width: 120px; text-align: right; }
+.cart-final { width: 140px; text-align: right; }
+
+/* Image */
+.cart-img img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 4px;
+}
+
+/* Text styles */
+.cart-name p {
+  margin: 0;
+}
+.product-name {
+  font-weight: 600;
+  color: #111;
+}
+.promo-text {
+  color: #dc2626;
+  font-size: 13px;
+  font-weight: 600;
+}
+.mrp {
+  color: #6b7280;
+  text-decoration: line-through;
+}
+.discount {
+  color: #16a34a;
+  font-weight: 600;
+}
+.final {
+  font-size: 18px;
+  font-weight: 700;
+  color: #111;
+}
+
+/* Quantity box */
+.qty-box {
+  display: inline-block;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Header row */
+.cart-header {
+  display: flex;
+  gap: 20px;
+  padding: 10px 20px;
+  font-weight: 600;
+  color: #555;
+}
+.cart-header div {
+  font-size: 14px;
+}
+</style>
+
+<div class="cart-container">
+
+  <h1 style="font-size:24px;font-weight:600;margin-bottom:20px;">
+    Shopping Cart
+  </h1>
+
+  {% if cart %}
+
+  <!-- Header -->
+  <div class="cart-header">
+    <div class="cart-img">Product</div>
+    <div class="cart-name"></div>
+    <div class="cart-qty">Qty</div>
+    <div class="cart-mrp">MRP</div>
+    <div class="cart-discount">Discount</div>
+    <div class="cart-final">Final Price</div>
+  </div>
+
+  {% for id, item in cart.items %}
+  <div class="cart-row">
+
+    <!-- Image -->
+    <div class="cart-img">
+      {% if item.image %}
+        <img src="{{ item.image }}" alt="{{ item.name }}">
+      {% endif %}
+    </div>
+
+    <!-- Name + Promotion -->
+    <div class="cart-name">
+      <p class="product-name">{{ item.name }}</p>
+
+      {% if item.promotion %}
+        <p class="promo-text">
+          {% if item.promotion.discount_type == "percentage" %}
+            {{ item.promotion.discount_value|floatformat:0 }}% OFF
+          {% else %}
+            ₹{{ item.promotion.discount_value|floatformat:0 }} OFF
+          {% endif %}
+        </p>
+      {% endif %}
+    </div>
+
+    <!-- Qty -->
+    <div class="cart-qty">
+      <span class="qty-box">{{ item.quantity }}</span>
+    </div>
+
+    <!-- MRP -->
+    <div class="cart-mrp">
+      <span class="mrp">₹{{ item.mrp|floatformat:2 }}</span>
+    </div>
+
+    <!-- Discount -->
+    <div class="cart-discount">
+      {% if item.promotion %}
+        <p class="promo-text">
+          {% if item.promotion.discount_type == "percentage" %}
+            {{ item.promotion.discount_value|floatformat:0 }}%
+          {% else %}
+            ₹{{ item.promotion.discount_value|floatformat:0 }}
+          {% endif %}
+        </p>
+      {% endif %}
+    </div>
+
+    <!-- Final -->
+    <div class="cart-final">
+      <span class="final">₹{{ item.final_price|floatformat:2 }}</span>
+    </div>
+
+  </div>
+  {% endfor %}
+
+  <!-- Total -->
+  <div style="display:flex;justify-content:flex-end;margin-top:20px;">
+    <div style="background:#fff;padding:16px 24px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.1);font-size:18px;font-weight:600;">
+      Total: ₹{{ total|floatformat:2 }}
+    </div>
+  </div>
+
+  {% else %}
+    <p>Your cart is empty.</p>
+  {% endif %}
+
+</div>
+
+{% endblock %}
+
+{% include "partials/footer.html" %}

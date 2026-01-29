@@ -1,0 +1,7 @@
+{% extends "admin/change_form.html" %}
+{% load static %}
+
+{% block form_tag %}
+<form method="post" enctype="multipart/form-data" novalidate>
+{% csrf_token %}
+{% endblock %}

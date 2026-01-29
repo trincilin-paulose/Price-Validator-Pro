@@ -1,0 +1,16 @@
+Name,Slug,SKU,Category,Subcategory,MRP,Sale Price,Stock,Description,Specifications,Image
+Sony Bravia 55 Inch TV,sony-bravia-55-tv,SONY-TV-55,Electronics,Televisions,79999,55999,25,"4K Smart TV","Android TV, Dolby Vision",products/sony-tv.jpg
+LG Double Door Refrigerator,lg-double-door-fridge,LG-FRD-01,Appliances,Refrigerators,45999,35999,15,"Frost free refrigerator","260L, Inverter",products/lg-fridge.jpg
+Whirlpool Washing Machine,whirlpool-washing-machine,WHIRL-WM-01,Appliances,Washing Machines,38999,28999,20,"Front load washing machine","7kg, Inverter Motor",products/whirlpool-wm.jpg
+Prestige Gas Stove,prestige-gas-stove,PREST-GS-01,Kitchen,Gas Stoves,6999,5299,50,"3 Burner gas stove","Stainless steel",products/prestige.jpg
+Philips Mixer Grinder,philips-mixer-grinder,PHIL-MG-01,Kitchen,Mixer Grinders,4999,3999,45,"750W mixer grinder","3 Jars",products/philips.jpg
+Puma Running Shoes,puma-running-shoes,PUMA-RUN-01,Footwear,Sports,7999,5999,60,"Running shoes","EVA sole",products/puma-run.jpg
+Woodland Leather Boots,woodland-leather-boots,WOOD-BTS-01,Footwear,Boots,11999,8999,40,"Leather boots","Water resistant",products/woodland.jpg
+Raymond Blazer,raymond-blazer,RAY-BLZ-01,Apparels,Men,15999,11999,35,"Formal blazer","Wool blend",products/raymond-blazer.jpg
+Biba Women Kurti,biba-women-kurti,BIBA-KUR-01,Apparels,Women,2999,2299,80,"Ethnic wear kurti","Cotton",products/biba.jpg
+Lakme Matte Lipstick,lakme-matte-lipstick,LAK-LIP-01,Beauty,Makeup,999,799,120,"Matte finish lipstick","Long lasting",products/lakme.jpg
+Himalaya Face Wash,himalaya-face-wash,HIM-FW-01,Beauty,Skincare,299,249,200,"Herbal face wash","Neem & Turmeric",products/himalaya.jpg
+Godrej Office Chair,godrej-office-chair,GOD-CHR-01,Furniture,Chairs,8999,6999,30,"Ergonomic chair","Adjustable height",products/godrej-chair.jpg
+Sleepwell Mattress,sleepwell-mattress,SLEEP-MAT-01,Furniture,Mattresses,24999,18999,18,"Queen size mattress","Memory foam",products/sleepwell.jpg
+Decathlon Yoga Mat,decathlon-yoga-mat,DEC-YOGA-01,Sports,Yoga,1999,349,100,"Non-slip yoga mat","6mm thickness",products/yoga-mat.jpg
+Wildcraft Hiking Backpack,wildcraft-backpack,WILD-BAG-01,Bags,Backpacks,5999,1299,70,"Hiking backpack","40L capacity",products/wildcraft.jpg

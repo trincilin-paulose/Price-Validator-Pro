@@ -1,0 +1,13 @@
+Name,Slug,SKU,Category,Subcategory,MRP,Sale Price,Stock,Description,Specifications,Image
+Samsung Galaxy M14,samsung-galaxy-m14,SKU-MOB-001,Electronics,Mobile Phones,14999,4999,50,Samsung Galaxy M14 with 5G support,6.6 inch Display | 6000mAh Battery | 5G,products/galaxy_m14.jpg
+Redmi Note 13,redmi-note-13,SKU-MOB-002,Electronics,Mobile Phones,17999,17999,40,Redmi Note 13 with AMOLED display,6.67 inch AMOLED | Snapdragon Processor,products/redmi_note_13.jpg
+iPhone 13,iphone-13,SKU-MOB-003,Electronics,Mobile Phones,59999,999,20,Apple iPhone 13 with A15 Bionic chip,6.1 inch OLED | iOS,products/iphone_13.jpg
+Sony WH-1000XM5,sony-wh-1000xm5,SKU-AUD-001,Electronics,Headphones,34999,34999,30,Sony Noise Cancelling Headphones,ANC | 30 hrs Battery | Bluetooth,products/sony_xm5.jpg
+Boat Rockerz 450,boat-rockerz-450,SKU-AUD-002,Electronics,Headphones,3999,2499,100,Boat wireless on-ear headphones,40mm Drivers | Bluetooth,products/boat_450.jpg
+Dell Inspiron 15,dell-inspiron-15,SKU-LAP-001,Electronics,Laptops,65999,59999,15,Dell Inspiron 15 Laptop,Intel i5 | 16GB RAM | SSD,products/dell_inspiron_15.jpg
+HP Pavilion 14,hp-pavilion-14,SKU-LAP-002,Electronics,Laptops,72999,2999,12,HP Pavilion lightweight laptop,Intel i5 | Iris Xe Graphics,products/hp_pavilion_14.jpg
+Nike Revolution 6,nike-revolution-6,SKU-SHO-001,Fashion,Footwear,3999,2999,60,Nike running shoes for men,Breathable Mesh | Rubber Sole,products/nike_rev_6.jpg
+Adidas Ultraboost,adidas-ultraboost,SKU-SHO-002,Fashion,Footwear,17999,99,25,Adidas Ultraboost running shoes,Boost Midsole | Primeknit,products/adidas_ultraboost.jpg
+Levi's 511 Jeans,levis-511-jeans,SKU-CLT-001,Fashion,Clothing,4999,3999,70,Levi's slim fit jeans,Cotton Denim | Slim Fit,products/levis_511.jpg
+Philips Air Fryer,philips-air-fryer,SKU-HOM-001,Home Appliances,Kitchen,12999,12999,35,Philips digital air fryer,Rapid Air Tech | 4.1L,products/philips_airfryer.jpg
+Prestige Gas Stove,prestige-gas-stove,SKU-HOM-002,Home Appliances,Kitchen,8999,9,20,Prestige 3 burner gas stove,Toughened Glass | Manual Ignition,products/prestige_stove.jpg

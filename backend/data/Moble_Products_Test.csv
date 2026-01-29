@@ -1,0 +1,13 @@
+SKU,Product Name,Slug,Category,Subcategory,MRP,Sale Price,Stock,Description,Specifications,Image
+APL-IP14-128,Apple iPhone 14 128GB,apple-iphone-14-128gb,Mobiles,iphone,69900,64900,25,Apple iPhone 14 with A15 Bionic chip and dual camera system,128GB Storage|6.1 inch OLED|A15 Bionic|12MP Dual Camera|5G Support,products/iphone14.jpg
+APL-IP15-128,Apple iPhone 15 128GB,apple-iphone-15-128gb,Mobiles,iphone,79900,74900,20,Apple iPhone 15 with USB-C and A16 Bionic processor,128GB Storage|6.1 inch OLED|A16 Bionic|48MP Camera|5G,products/iphone15.jpg
+SMG-S23-256,Samsung Galaxy S23 5G,samsung-galaxy-s23-5g,Mobiles,Samsung,74999,69999,30,Samsung flagship smartphone with Snapdragon processor,256GB Storage|6.1 inch AMOLED|Snapdragon 8 Gen 2|50MP Camera|5G,products/samsung-galaxy-s23-5g.jpg
+SMG-S24-256,Samsung Galaxy S24 5G,samsung-galaxy-s24-5g,Mobiles,Samsung,79999,75999,18,Latest Samsung Galaxy S24 with AI features,256GB Storage|6.2 inch AMOLED|Exynos 2400|50MP Camera|5G,products/samsung-galaxy-s24.jpg
+ONE-11R-256,OnePlus 11R 5G,oneplus-11r-5g,Mobiles,OnePlus,44999,39999,40,Powerful OnePlus phone with smooth AMOLED display,256GB Storage|6.7 inch AMOLED|Snapdragon 8+ Gen 1|50MP Camera,products/oneplus-11r.jpg
+ONE-12-512,OnePlus 12 5G,oneplus-12-5g,Mobiles,OnePlus,69999,64999,22,Premium OnePlus flagship with Hasselblad camera,512GB Storage|6.82 inch AMOLED|Snapdragon 8 Gen 3|50MP Camera,products/oneplus-12.jpg
+XI-13P-256,Xiaomi 13 Pro,xiaomi-13-pro,Mobiles,Xiomi,79999,71999,15,Xiaomi flagship with Leica optics,256GB Storage|6.73 inch AMOLED|Snapdragon 8 Gen 2|50MP Leica Camera,products/xiaomi-redmi-note-13-pro.jpg
+XI-RN13-128,Redmi Note 13 Pro,redmi-note-13-pro,Mobiles,Xiomi,27999,24999,50,Redmi mid-range phone with 200MP camera,128GB Storage|6.67 inch AMOLED|Snapdragon 7 Gen 1|200MP Camera,products/redmi-note-13-pro.jpg
+IQ-NEO7-256,iQOO Neo 7 5G,iqoo-neo-7-5g,Mobiles,IQOO,34999,31999,35,Performance focused smartphone for gaming,256GB Storage|6.78 inch AMOLED|Dimensity 9000+|50MP Camera,products/iqoo-neo7-1.jpg
+VIV-X90-256,Vivo X90 5G,vivo-x90-5g,Mobiles,IQOO,63999,59999,20,Vivo flagship with ZEISS optics,256GB Storage|6.78 inch AMOLED|Dimensity 9200|50MP ZEISS Camera,products/vivo-x90-pro-plus-1.jpg
+OPP-F25-128,Oppo F25 Pro 5G,oppo-f25-pro-5g,Mobiles,Oppo,25999,22999,45,Stylish Oppo phone with fast charging,128GB Storage|6.7 inch AMOLED|Dimensity 7050|64MP Camera,products/oppo-f25-pro-1.jpg
+REAL-12P-256,Realme 12 Pro Plus,realme-12-pro-plus,Mobiles,Realme,33999,29999,38,Realme camera-centric smartphone,256GB Storage|6.7 inch AMOLED|Snapdragon 7s Gen 2|200MP Camera,products/realme-12-pro-plus.jpg

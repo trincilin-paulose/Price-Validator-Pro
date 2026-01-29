@@ -1,0 +1,13 @@
+Name,Slug,SKU,Category,Subcategory,MRP,Sale Price,Stock,Description,Specifications,Image
+Allen Solly Men T-Shirt,allen-solly-men-t-shirt,ASMTS-GRN,Apparels,Men,1799,594,200,"Cotton T-shirt","60% Cotton, Regular Fit",products/allen-solly.jpg
+Puma Men Sports T-Shirt,puma-men-sports-tshirt,PUMTS-BLK,Apparels,Men,2499,299,150,"Sports wear","Polyester, Slim Fit",products/puma-tshirt.jpg
+Nike Running Shoes,nike-running-shoes,NIKRUN-001,Footwear,Sports,8999,1799,80,"Running shoes","Mesh, Rubber Sole",products/nike-shoes.jpg
+Adidas Sneakers,adidas-sneakers,ADD-SNK-01,Footwear,Casual,5999,999,60,"Casual sneakers","Synthetic, Lace-up",products/adidas.jpg
+Samsung Galaxy M14,samsung-galaxy-m14,SAM-M14,Electronics,Mobiles,14999,2999,50,"Android smartphone","6GB RAM, 128GB Storage",products/samsung-m14.jpg
+Apple iPhone 14,apple-iphone-14,APL-IP14,Electronics,Mobiles,79999,15999,30,"Latest iPhone","A15 Bionic, iOS",products/iphone14.jpg
+Boat Rockerz Headphones,boat-rockerz-headphones,BOAT-ROCK-01,Electronics,Accessories,1999,399,120,"Wireless headphones","Bluetooth 5.0",products/boat.jpg
+Sony Bluetooth Speaker,sony-bluetooth-speaker,SONY-SPK-01,Electronics,Accessories,9999,2499,40,"Portable speaker","Water Resistant",products/sony.jpg
+IKEA Study Table,ikea-study-table,IKEA-TBL-01,Furniture,Tables,12999,999,20,"Wooden study table","Engineered wood",products/ikea-table.jpg
+Nilkamal Plastic Chair,nilkamal-plastic-chair,NIL-CHR-01,Furniture,Chairs,2499,349,100,"Plastic chair","Weather resistant",products/nilkamal.jpg
+Raymond Formal Shirt,raymond-formal-shirt,RAY-FRM-01,Apparels,Men,2999,1199,90,"Formal shirt","100% Cotton",products/raymond.jpg
+Levis Denim Jeans,levis-denim-jeans,LEVIS-JNS-01,Apparels,Men,3999,699,70,"Blue denim jeans","Slim Fit",products/levis.jpg
