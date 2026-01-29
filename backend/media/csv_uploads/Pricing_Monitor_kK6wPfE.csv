@@ -1,0 +1,13 @@
+SKU,Category,Sub-category,Brand,Product Name,MRP (₹),Discount %,Discount Amount (₹),Net Price (₹),Stock,Rating
+APL-IP14-128,Mobiles,iphone,iphone,Apple iPhone 14 128GB,75500,10,6990,62910,50,4.5
+APL-IP15-128,Mobiles,iphone,iphone,Apple iPhone 15 128GB,99999,70,55930,23970,30,4.2
+SMG-S23-256,Mobiles,Samsung,Samsung,Samsung Galaxy S23 5G,85999,25,18749.75,56249.25,20,4.1
+SMG-S24-256,Mobiles,Samsung,Samsung,Samsung Galaxy S24 5G,92999,15,11999.85,67999.15,40,4.6
+ONE-11R-256,Mobiles,OnePlus,OnePlus,OnePlus 11R 5G,66555,50,22499.5,22499.5,30,4.4
+ONE-12-512,Mobiles,OnePlus,OnePlus,OnePlus 12 5G,88999,35,24499.65,45499.35,55,4.42
+XI-13P-256,Mobiles,Xiomi,Xiomi,Xiaomi 13 Pro,80999,72,57599.28,22399.72,73,4.44
+XI-RN13-128,Mobiles,Xiomi,Xiomi,Redmi Note 13 Pro,47500,25,6999.75,20999.25,23,4.46
+IQ-NEO7-256,Mobiles,IQOO,IQOO,iQOO Neo 7 5G,32999,80,27999.2,6999.8,67,4.48
+VIV-X90-256,Mobiles,IQOO,IQOO,Vivo X90 5G,83550,10,6399.9,57599.1,33,4.5
+OPP-F25-128,Mobiles,Oppo,Oppo,Oppo F25 Pro 5G,55899,5,1299.95,24699.05,88,4.52
+REAL-12P-256,Mobiles,Realme,Realme,Realme 12 Pro Plus,43555,15,5099.85,28899.15,90,4.54

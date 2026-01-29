@@ -1,0 +1,10 @@
+SKU,Category,Sub-category,Brand,Product Name,MRP,Discount,Discount Amount,Net Price,Stock,Rating,,
+SMG-S23-256,Mobiles,Samsung,Samsung,Samsung Galaxy S23 5G,45999,10,4599.9,41399.1,20,4.1,y,p
+SMG-S24-256,Mobiles,Samsung,Samsung,Samsung Galaxy S24 5G,78500,10,7850,70650,40,4.6,y,p
+ONE-12-512,Mobiles,OnePlus,OnePlus,OnePlus 12 5G,79999,40,31999.6,47999.4,55,4.42,n,p
+ONE-11R-256,Mobiles,OnePlus,OnePlus,OnePlus 11R 5G,68999,20,13799.8,55199.2,30,4.4,y,c
+OPP-F25-128,Mobiles,Oppo,Oppo,Oppo F25 Pro 5G,65500,50,32750,32750,88,4.52,n,c
+XI-13P-256,Mobiles,Xiomi,Xiomi,Xiaomi 13 Pro,45500,10,4550,40950,73,4.44,y,p
+XI-RN13-128,Mobiles,Xiomi,Xiomi,Redmi Note 13 Pro,35450,30,10635,24815,23,4.46,n,c
+REAL-12P-256,Mobiles,Realme,Realme,Realme 12 Pro Plus,29500,30,8850,20650,90,4.54,y,c
+APL-IP14-128,Mobiles,iphone,iphone,Apple iPhone 14 128GB,85999,60,51599.4,34399.6,50,4.5,n,p

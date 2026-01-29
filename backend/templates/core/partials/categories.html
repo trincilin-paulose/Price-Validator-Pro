@@ -1,0 +1,46 @@
+<section class="max-w-7xl mx-auto px-4 py-12">
+  <h2 class="text-2xl font-bold mb-6">Shop by Category</h2>
+
+  {% for category in menu_categories %}
+    <div class="mb-12">
+
+      <h3 class="text-xl font-semibold mb-4">
+        {{ category.name }}
+      </h3>
+
+      <!-- Swiper Container -->
+      <div
+        class="swiper category-swiper"
+        data-category="{{ category.id }}"
+      >
+        <div class="swiper-wrapper">
+
+          {% for sub in category.children.all %}
+            <div class="swiper-slide w-64">
+                <a
+                href="{% url 'catalog:category_detail' sub.slug %}"
+                class="block bg-white rounded shadow p-4 text-center hover:shadow-lg transition"
+                >
+                    <div class="bg-white rounded shadow p-4 text-center">
+                        {% if sub.image %}
+                        <img
+                            src="{{ sub.image.url }}"
+                            class="h-24 mx-auto mb-3 object-contain"
+                        />
+                        {% endif %}
+                        <p class="font-semibold">{{ sub.name }}</p>
+                    </div>
+                </a>
+            </div>
+          {% endfor %}
+
+        </div>
+
+        <!-- Navigation -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+
+    </div>
+  {% endfor %}
+</section>

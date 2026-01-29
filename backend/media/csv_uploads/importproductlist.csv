@@ -1,0 +1,11 @@
+Name,Slug,SKU,Category,Subcategory,MRP,Sale Price,Stock,Description,Specifications,Image
+Allen Solly Men T-Shirt-2,allen-solly-men-t-shirt-2,ASMTS-GRN-2,Apparels,Men,1799,594,200,Premium cotton t-shirt for daily wear,"Material: 60% Cotton, 40% Polyester | Fit: Regular | Sleeve: Half",products/allen-solly-tshirt.jpg
+Puma Men Sports T-Shirt-2,puma-men-sports-tshirt-2,PUMTS-BLK-2,Apparels,Men,2499,299,150,Breathable sports t-shirt,Material: Polyester | Fit: Slim,products/puma-sports-tshirt.jpg
+Nike Running Shoes,nike-running-shoes,NIKRUN-001,Footwear,,8999,1799,50,High performance running shoes,Sole: Rubber | Closure: Lace-up,products/nike-running-shoes.jpg
+Samsung 43 Inch Smart TV,samsung-43-inch-tv,SAMTV-43,Interiors,Electronics,42000,3500,25,Ultra HD smart television,Screen: 43 inch | Resolution: 4K UHD,products/samsung-43-tv.jpg
+Apple iPhone 14,apple-iphone-14,IPH14-BLK,Mobiles,iphone,69900,55999,30,Latest Apple smartphone,Storage: 128GB | OS: iOS,products/iphone-14.jpg
+Boat Rockerz Headphones,boat-rockerz-headphones,BOAT-ROCK-550,Interiors,Electronics,4999,399,100,Wireless bluetooth headphones,Battery: 20H | Connectivity: Bluetooth,products/boat-rockerz.jpg
+Wooden Coffee Table,wooden-coffee-table,WOOD-TBL-01,Interiors,Furniture,12000,2800,15,Solid wood coffee table,Material: Sheesham Wood,products/coffee-table.jpg
+Office Chair Ergonomic,office-chair-ergonomic,OFF-CHR-02,Interiors,Furniture,8500,1200,20,Ergonomic office chair,Material: Mesh | Adjustable Height,products/office-chair.jpg
+Men Casual Shoes,men-casual-shoes,MCAS-SHOE-01,Footwear,,3999,899,40,Comfortable casual shoes,Upper: Synthetic | Sole: EVA,products/men-casual-shoes.jpg
+Bluetooth Smart Watch,bluetooth-smart-watch,BSW-100,Interiors,Electronics,6999,899,60,Fitness tracking smart watch,Display: AMOLED | Battery: 7 days,products/smart-watch.jpg

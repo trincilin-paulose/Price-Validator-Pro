@@ -1,0 +1,5 @@
+Name,Slug,SKU,Category,Subcategory,MRP,Sale Price,Stock,Description,Specifications,Image
+Samsung Galaxy M14,samsung-galaxy-m14,SKU-MOB-001,Electronics,Mobile Phones,14999,4999,50,Samsung Galaxy M14 with 5G support,6.6 inch Display | 6000mAh Battery | 5G,products/galaxy_m14.jpg
+Redmi Note 13,redmi-note-13,SKU-MOB-002,Electronics,Mobile Phones,17999,14999,40,Redmi Note 13 with AMOLED display,6.67 inch AMOLED | Snapdragon Processor,products/redmi_note_13.jpg
+iPhone 13,iphone-13,SKU-MOB-003,Electronics,Mobile Phones,59999,999,20,Apple iPhone 13 with A15 Bionic chip,6.1 inch OLED | iOS,products/iphone_13.jpg
+Sony WH-1000XM5,sony-wh-1000xm5,SKU-AUD-001,Electronics,Headphones,34999,29999,30,Sony Noise Cancelling Headphones,ANC | 30 hrs Battery | Bluetooth,products/sony_xm5.jpg
